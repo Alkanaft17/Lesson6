@@ -5,7 +5,8 @@ my_dict.update({'Masha': 2004,
                 'Andrey': 2003})
 print(my_dict)
 print(my_dict.get('Viktor'))  # Вывод значения по ключу, которого нет (получим None)
-print(my_dict.pop('Sveta'))  # удаление ключа из словаря и вывод его значения
+a = my_dict.pop('Sveta')  # удаление ключа из словаря c запоминанем
+print(a)
 my_set = {1, 0.1, True, 'Coffe', 1, 78, 'Coffe', 13, 'DVD'}  # множество
 print(my_set)
 my_set.update([5, 2, False])  # добавляет несколько элементов
